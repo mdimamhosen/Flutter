@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DesignPage extends StatelessWidget {
   const DesignPage({super.key});
@@ -7,11 +8,15 @@ class DesignPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF00E676), // Vibrant Green from image
+        backgroundColor: const Color(0xFF00E676), // Vibrant Green
         leading: const Icon(Icons.arrow_back, color: Colors.black),
-        title: const Text(
+        title: Text(
           '4th April 2026',
-          style: TextStyle(color: Colors.black, fontSize: 18),
+          style: GoogleFonts.outfit(
+            color: Colors.black,
+            fontSize: 20,
+            fontWeight: FontWeight.w600,
+          ),
         ),
         centerTitle: true,
         elevation: 0,
@@ -27,11 +32,12 @@ class DesignPage extends StatelessWidget {
                   height: 100,
                   color: Colors.redAccent,
                   alignment: Alignment.center,
-                  child: const Text(
+                  child: Text(
                     '22 CSE 051',
-                    style: TextStyle(
+                    style: GoogleFonts.outfit(
                       color: Colors.black,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
                     ),
                   ),
                 ),
@@ -42,11 +48,12 @@ class DesignPage extends StatelessWidget {
                   height: 100,
                   color: Colors.green,
                   alignment: Alignment.center,
-                  child: const Text(
+                  child: Text(
                     'O+',
-                    style: TextStyle(
+                    style: GoogleFonts.outfit(
                       color: Colors.black,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
                     ),
                   ),
                 ),
@@ -57,9 +64,9 @@ class DesignPage extends StatelessWidget {
                   height: 100,
                   color: Colors.blueAccent,
                   alignment: Alignment.center,
-                  child: const Text(
+                  child: Text(
                     'Barguna',
-                    style: TextStyle(
+                    style: GoogleFonts.outfit(
                       color: Colors.black,
                       fontWeight: FontWeight.w500,
                     ),
@@ -84,20 +91,21 @@ class DesignPage extends StatelessWidget {
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.3),
+                    color: Colors.black.withOpacity(0.1),
                     spreadRadius: 2,
-                    blurRadius: 10,
-                    offset: const Offset(0, 5),
+                    blurRadius: 15,
+                    offset: const Offset(0, 10),
                   ),
                 ],
               ),
               alignment: Alignment.center,
-              child: const Text(
-                '2110-051-22',
-                style: TextStyle(
+              child: Text(
+                '110-051-2022',
+                style: GoogleFonts.outfit(
                   color: Colors.black87,
-                  fontSize: 16,
+                  fontSize: 18,
                   fontWeight: FontWeight.bold,
+                  letterSpacing: 1.2,
                 ),
               ),
             ),
@@ -109,20 +117,29 @@ class DesignPage extends StatelessWidget {
           Align(
             alignment: Alignment.bottomRight,
             child: Padding(
-              padding: const EdgeInsets.only(right: 20, bottom: 40),
+              padding: const EdgeInsets.only(right: 30, bottom: 50),
               child: Container(
-                width: 100,
-                height: 100,
-                decoration: const BoxDecoration(
+                width: 120,
+                height: 120,
+                decoration: BoxDecoration(
                   color: Colors.pinkAccent,
                   shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.pinkAccent.withOpacity(0.4),
+                      spreadRadius: 2,
+                      blurRadius: 20,
+                      offset: const Offset(0, 5),
+                    ),
+                  ],
                 ),
                 alignment: Alignment.center,
-                child: const Text(
+                child: Text(
                   'imam',
-                  style: TextStyle(
-                    color: Colors.black87,
+                  style: GoogleFonts.outfit(
+                    color: Colors.white,
                     fontWeight: FontWeight.bold,
+                    fontSize: 20,
                   ),
                 ),
               ),

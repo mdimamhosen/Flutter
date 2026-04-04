@@ -1,17 +1,24 @@
-# firstapp
+# Flutter UI Design Task
 
-A new Flutter project.
+This project contains a specialized Flutter UI implementation based on a specific layout design.
 
-## Getting Started
+## Task Overview
+The goal of this task was to recreate a particular UI layout using Flutter basic widgets like `Container`, `Row`, `Column`, `Align`, and `Stack` with precise decorations and alignments.
 
-This project is a starting point for a Flutter application.
+## Key Features
+- **Header**: A custom AppBar with a vibrant green background.
+- **Top Metrics**: A `Row` with three expanded blocks for:
+  - **Roll**: 22 CSE 051 (Red block)
+  - **Blood Group**: O+ (Green block)
+  - **District**: Barguna (Blue block)
+- **Central Card**: A custom Yellow container with specific rounded corners (`topLeft` and `bottomRight`) representing registration details.
+- **Floating Element**: A magenta circle aligned to the bottom right containing the nickname: **imam**.
 
-A few resources to get you started if this is your first Flutter project:
+## Design Hints Followed
+- Custom `BoxDecoration` with specific `BorderRadius`.
+- Alignment using `Spacer` and `Align`.
+- Flexible layouts with `Expanded` widgets.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running the app
+The main entry point is updated to show `DesignPage` as the default home screen.
+![alt text](image.png)
