@@ -21,4 +21,6 @@ The goal of this task was to recreate a particular UI layout using Flutter basic
 
 ## Running the app
 The main entry point is updated to show `DesignPage` as the default home screen.
-![alt text](image.png)
+
+## Image of the app
+![Work1Image](image.png)
