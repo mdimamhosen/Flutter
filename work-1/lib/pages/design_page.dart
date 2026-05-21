@@ -11,7 +11,7 @@ class DesignPage extends StatelessWidget {
         backgroundColor: const Color(0xFF00E676), // Vibrant Green
         leading: const Icon(Icons.arrow_back, color: Colors.black),
         title: Text(
-          '4th April 2026',
+          '5th April 2026',
           style: GoogleFonts.outfit(
             color: Colors.black,
             fontSize: 20,
@@ -33,7 +33,7 @@ class DesignPage extends StatelessWidget {
                   color: Colors.redAccent,
                   alignment: Alignment.center,
                   child: Text(
-                    '22 CSE 051',
+                    '22 CSE 023',
                     style: GoogleFonts.outfit(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
@@ -49,7 +49,7 @@ class DesignPage extends StatelessWidget {
                   color: Colors.green,
                   alignment: Alignment.center,
                   child: Text(
-                    'O+',
+                    'A+',
                     style: GoogleFonts.outfit(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
@@ -65,7 +65,7 @@ class DesignPage extends StatelessWidget {
                   color: Colors.blueAccent,
                   alignment: Alignment.center,
                   child: Text(
-                    'Barguna',
+                    'Madaripur',
                     style: GoogleFonts.outfit(
                       color: Colors.black,
                       fontWeight: FontWeight.w500,
@@ -75,9 +75,9 @@ class DesignPage extends StatelessWidget {
               ),
             ],
           ),
-          
+
           const Spacer(flex: 1),
-          
+
           // Yellow Card with custom shape
           Center(
             child: Container(
@@ -100,7 +100,7 @@ class DesignPage extends StatelessWidget {
               ),
               alignment: Alignment.center,
               child: Text(
-                '110-051-2022',
+                '110-023-2022',
                 style: GoogleFonts.outfit(
                   color: Colors.black87,
                   fontSize: 18,
@@ -110,9 +110,9 @@ class DesignPage extends StatelessWidget {
               ),
             ),
           ),
-          
+
           const Spacer(flex: 2),
-          
+
           // Bottom Right Circle Component
           Align(
             alignment: Alignment.bottomRight,
@@ -135,7 +135,7 @@ class DesignPage extends StatelessWidget {
                 ),
                 alignment: Alignment.center,
                 child: Text(
-                  'imam',
+                  'likhon',
                   style: GoogleFonts.outfit(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
